@@ -54,7 +54,7 @@ const NavBar = () => {
     <Navbar
       fixed="top"
       expand="md"
-      bg="dark"
+      bg="#A9A9A9"
       variant="dark"
       className="navbar-custom"
       expanded={expanded}
