@@ -19,6 +19,11 @@
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Projects"
+        },
+        {
+            "component": "Publication",
+            "path": "/publication",
+            "headerTitle": "Publication"
         }
     ]
 }

@@ -11,6 +11,10 @@
         {
             "title": "Projects",
             "href": "/projects"
+        },
+        {
+            "title": "Publication",
+            "href": "/publication"
         }
     ]
 
