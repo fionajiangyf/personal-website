@@ -24,6 +24,11 @@
             "component": "Publication",
             "path": "/publication",
             "headerTitle": "Publication"
+        },
+        {
+            "component": "Photography",
+            "path": "/photography",
+            "headerTitle": "Photography"
         }
     ]
 }
