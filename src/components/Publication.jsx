@@ -18,7 +18,7 @@ const styles = {
     whiteSpace: 'pre-wrap',
   },
   publicationItem: {
-    marginBottom: '1rem',
+    marginBottom: '7rem',
   },
   linkStyle: {
     textDecoration: 'none',

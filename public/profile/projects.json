@@ -4,6 +4,7 @@
             "image" : "images/projects/website.png",
             "title": "Personal Website",
             "bodyText": "- Developer Portfolio Website made in React \n - Dark Mode Support",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -15,6 +16,7 @@
             "image" : "images/projects/sudoku.jpeg",
             "title": "Sudoku AI Solver",
             "bodyText": "- A Sudoku Solver made in React using **CSP** algorithm. \n - Option to solve the board using **AI**.\n - Have multiple difficulty levels.",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -33,6 +35,7 @@
             "image" : "images/projects/nyc_taxi.jpeg",
             "title": "Data Analysis of NYC Taxi Dataset",
             "bodyText": "- A Comprehensive Data Analysis of the NYC Taxi Dataset.\n - Analysis includes **Data Cleaning**, **Exploratory Data Analysis**, **Data Visualization** and **Predictive Modelling** (XG Boost, Neural Networks, and Random Forest).",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -51,6 +54,7 @@
         {
             "title": "Juve",
             "bodyText": "- HackHarvard Project \n - A Web Application that helps users to do rehabilitation exercises using **Fruit Ninja** using **OpenCV** pose detection of camera videos. ",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -70,6 +74,7 @@
             "image" : "images/projects/wordle.png",
             "title": "Wordle",
             "bodyText": "- A replica of New York Times Wordle game with 6-letter words.",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -84,6 +89,7 @@
         {
             "title": "CIS5210 Artifical Intelligence",
             "bodyText": "- Assignments for CIS5210 Artificial Intelligence \n - Includes **Search Algorithms**, **Constraint Satisfaction Problems**, **Bayesian Networks**, **Hidden Markov Models**, **Reinforcement Learning**, **Natural Language Processing**, and **Neural Networks**.",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -98,6 +104,7 @@
         {
             "title": "CIS 5450 Big Data Analytics",
             "bodyText": "- Assignments for CIS 5450 Big Data Analytics \n - Includes **Data Wrangling**, **Data Visualization**, **Data Modelling**, **Querying**, **Cluster Analysis**, and **Neural Networks**.",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -109,6 +116,7 @@
                 "SQL",
                 "Apache Spark",
                 "SparkSQL",
+                "AWS",
                 "Jupyter Notebook",
                 "Machine Learning",
                 "Data Analysis"
@@ -117,6 +125,7 @@
         {
             "title": "CIS 1210 Data Structures and Algorithms",
             "bodyText": "- Assignments for CIS 1210 Data Structure and Algorithms \n - Includes implementations of **Huffman Algorithm**, **Binary Min Heap**, **Graph Algorithms**, **HashMap**.",
+            "status": "completed",
             "links": [
                 {
                     "text": "GitHub",
@@ -127,6 +136,57 @@
                 "Java",
                 "Algorithms",
                 "Data Structures"
+            ]
+        },
+        {
+            "title": "AdMix",
+            "bodyText": "- Taking over a PhD project under Professor Danaë Metaxa from Penn HCI Lab. \n - A browser-based system for end users to collectively control their online ad content using human-centered, AI-powered tools.",
+            "status": "ongoing",
+            "tags" : [
+                "Chrome Extension"
+            ]
+        },
+        {
+            "title": "Events At Penn",
+            "bodyText": "- Associated with Penn Spark \n - A Web Application that helps students to find social events happening at Penn.",
+            "status": "ongoing",
+            "tags" : [
+                "JavaScript",
+                "Next.js",
+                "React"
+            ]
+        },
+        {
+            "title": "Instagram Duplicate",
+            "bodyText": "- Final Project for NETS 2120 Scalable and Cloud Computing \n - A Web Application that replicates the functionalities of Instagram with full-stack develepment, databases, and AI.",
+            "status": "ongoing",
+            "tags" : [
+                "JavaScript",
+                "Node.js",
+                "Java",
+                "MongoDB",
+                "AWS"
+            ]
+        },
+        {
+            "title": "SecTix",
+            "bodyText": "- Final Project for CIS 5120 Introduction to Human-Computer Interaction \n - A Web Application that helps users to buy and sell second-hand tickets for events.",
+            "status": "ongoing",
+            "tags" : [
+                "JavaScript",
+                "React",
+                "HTML/CSS"
+            ]
+        },
+        {
+            "title": "Final Project for CIS 5500 Databases And Information Systems",
+            "bodyText": " - A Web Application that integrates with SQL databases of at least two large datasets.",
+            "status": "ongoing",
+            "tags" : [
+                "SQL",
+                "AWS",
+                "MongoDB",
+                "Web Development"
             ]
         }
     ]
