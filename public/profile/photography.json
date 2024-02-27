@@ -1,109 +1,144 @@
 {
     "photography" : [
         {
-            "image": "images/photography/DSC04794.JPG"
+            "image": "images/photography/DSC04794.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04848.JPG"
+            "image": "images/photography/DSC04848.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04805.JPG"
+            "image": "images/photography/DSC04805.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04817.JPG"
+            "image": "images/photography/DSC04817.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04956.JPG"
+            "image": "images/photography/DSC04956.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04961.JPG"
+            "image": "images/photography/DSC04961.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05166.JPG"
+            "image": "images/photography/DSC05166.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05416.JPG"
+            "image": "images/photography/DSC05416.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05291.JPG"
+            "image": "images/photography/DSC05291.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05359.JPG"
+            "image": "images/photography/DSC05359.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05454.JPG"
+            "image": "images/photography/DSC05454.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05587.JPG"
+            "image": "images/photography/DSC05587.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05479-2.JPG"
+            "image": "images/photography/DSC05479-2.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/4.jpg"
+            "image": "images/photography/4.jpg",
+            "location": "Philadelphia, PA"
         },
         {
-            "image": "images/photography/DSC05625.JPG"
+            "image": "images/photography/DSC05625.JPG",
+            "location": "Winter Park, CO"
         },
         {
-            "image": "images/photography/DSC04844.jpg"
+            "image": "images/photography/DSC04844.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC04890.JPG"
+            "image": "images/photography/DSC04890.JPG",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/25.jpg"
+            "image": "images/photography/25.jpg",
+            "location": "Philadelphia, PA"
         },
         {
-            "image": "images/photography/DSC04906.jpg"
+            "image": "images/photography/DSC04906.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05023.jpg"
+            "image": "images/photography/DSC05023.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05136.jpg"
+            "image": "images/photography/DSC05136.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC05264.jpg"
+            "image": "images/photography/DSC05264.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC07369.jpg"
+            "image": "images/photography/DSC07369.jpg",
+            "location": "New York City, NY"
         },
         {
-            "image": "images/photography/DSC06657.JPG"
+            "image": "images/photography/DSC06657.JPG",
+            "location": "Portland, OR"
         },
         {
-            "image": "images/photography/DSC07199.jpg"
+            "image": "images/photography/DSC07199.jpg",
+            "location": "Tibet, China"
         },
         {
-            "image": "images/photography/DSC07215.JPG"
+            "image": "images/photography/DSC07215.JPG",
+            "location": "Tibet, China"
         },
         {
-            "image": "images/photography/DSC06617.JPG"
+            "image": "images/photography/DSC06617.JPG",
+            "location": "Seattle, WA"
         },
         {
-            "image": "images/photography/DSC07264.jpg"
+            "image": "images/photography/DSC07264.jpg",
+            "location": "Tibet, China"
         },
         {
-            "image": "images/photography/DSC05576.JPG"
+            "image": "images/photography/DSC05576.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05593.JPG"
+            "image": "images/photography/DSC05593.JPG",
+            "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC06340.JPG"
+            "image": "images/photography/DSC06340.JPG",
+            "location": "Seattle, WA"
         },
         {
-            "image": "images/photography/DSC06383.JPG"
+            "image": "images/photography/DSC06383.JPG",
+            "location": "Seattle, WA"
         },
         {
-            "image": "images/photography/DSC06489.JPG"
+            "image": "images/photography/DSC06489.JPG",
+            "location": "Seattle, WA"
         },
         {
-            "image": "images/photography/DSC06501.JPG"
+            "image": "images/photography/DSC06501.JPG",
+            "location": "Seattle, WA"
         },
         {
-            "image": "images/photography/DSC06557.JPG"
+            "image": "images/photography/DSC06557.JPG",
+            "location": "Seattle, WA"
         }
     ]
 }

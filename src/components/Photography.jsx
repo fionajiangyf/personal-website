@@ -14,6 +14,9 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'column',
+    width: '80vw', // 80% of the viewport width
+    height: '60vh', // 60% of the viewport height
+    margin: 'auto', // Center the container on the page
   },
   imageStyle: {
     width: 'auto',
@@ -23,18 +26,28 @@ const styles = {
     margin: 0,
   },
   modalImage: {
-    maxWidth: '100%', // Ensures the image does not exceed the modal width
-    maxHeight: '80vh', // Limits the image height to 80% of the viewport height to ensure it fits in the modal
-    objectFit: 'contain', // Ensures the image is scaled correctly to fit within the constraints without cropping
-    display: 'block', // Ensures the image is a block-level element to center it horizontally
-    margin: 'auto', // Centers the image horizontally within the modal
+    maxWidth: '100%',
+    maxHeight: '80vh',
+    objectFit: 'contain',
+    display: 'block',
+    margin: 'auto',
+  },
+  imageAndDescriptionContainer: {
+    textAlign: 'center',
+    maxWidth: '100%',
   },
   modalBody: {
-    display: 'flex', // Enables flexbox for the modal body
-    justifyContent: 'center', // Centers the image horizontally
-    alignItems: 'center', // Centers the image vertically
-    height: '90vh', // Sets a maximum height for the modal body
-    padding: '10px', // Adds some padding around the image
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '90vh',
+    padding: '10px',
+  },
+  photoDescription: {
+    marginTop: '15px',
+    display: 'center',
+    width: '100%',
+    fontSize: '1rem',
   },
 };
 
@@ -42,7 +55,7 @@ function Photography(props) {
   const { header } = props;
   const [data, setData] = useState(null);
   const [showModal, setShowModal] = useState(false);
-  const [selectedPhoto, setSelectedPhoto] = useState('');
+  const [selectedPhoto, setSelectedPhoto] = useState({ url: '', location: '' });
 
   useEffect(() => {
     fetch(endpoints.photography, {
@@ -54,7 +67,7 @@ function Photography(props) {
   }, []);
 
   const openModal = (photo) => {
-    setSelectedPhoto(photo);
+    setSelectedPhoto({ url: photo.image, location: photo.location });
     setShowModal(true);
   };
 
@@ -73,7 +86,7 @@ function Photography(props) {
                     <Image
                       src={photo.image}
                       thumbnail
-                      onClick={() => openModal(`${photo.image}`)}
+                      onClick={() => openModal(photo)}
                       fluid
                       style={styles.imageStyle}
                     />
@@ -86,7 +99,10 @@ function Photography(props) {
         <Modal show={showModal} onHide={closeModal} centered size="lg">
           <Modal.Header closeButton />
           <Modal.Body style={styles.modalBody}>
-            <Image src={selectedPhoto} style={styles.modalImage} fluid />
+            <div style={styles.imageAndDescriptionContainer}>
+              <Image src={selectedPhoto.url} style={styles.modalImage} fluid />
+              <div style={styles.photoDescription}>{selectedPhoto.location}</div>
+            </div>
           </Modal.Body>
         </Modal>
       </div>
