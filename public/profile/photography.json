@@ -33,8 +33,8 @@
             "location": "Santa Monica, CA"
         },
         {
-            "image": "images/photography/DSC05291.JPG",
-            "location": "New York City, NY"
+            "image": "images/photography/DSC06041.JPG",
+            "location": "San Diego, CA"
         },
         {
             "image": "images/photography/DSC05359.JPG",
@@ -113,12 +113,36 @@
             "location": "Tibet, China"
         },
         {
+            "image": "images/photography/DSC05291.JPG",
+            "location": "New York City, NY"
+        },
+        {
             "image": "images/photography/DSC05576.JPG",
             "location": "Santa Monica, CA"
         },
         {
+            "image": "images/photography/DSC04994.JPG",
+            "location": "New York City, NY"
+        },
+        {
+            "image": "images/photography/DSC05036.JPG",
+            "location": "New York City, NY"
+        },
+        {
             "image": "images/photography/DSC05593.JPG",
             "location": "Santa Monica, CA"
+        },
+        {
+            "image": "images/photography/DSC05043.JPG",
+            "location": "New York City, NY"
+        },
+        {
+            "image": "images/photography/DSC07318_1.jpg",
+            "location": "Tibet, China"
+        },
+        {
+            "image": "images/photography/DSC07426.JPG",
+            "location": "Washnington, D.C."
         },
         {
             "image": "images/photography/DSC06340.JPG",
@@ -139,6 +163,14 @@
         {
             "image": "images/photography/DSC06557.JPG",
             "location": "Seattle, WA"
+        },
+        {
+            "image": "images/photography/DSC06850_1.jpg",
+            "location": "Seattle, WA"
+        },
+        {
+            "image": "images/photography/DSC07238_1.jpg",
+            "location": "Tibet, China"
         }
     ]
 }
