@@ -1,0 +1,30 @@
+.introTextContainer, .introImageContainer {
+    margin: 80px;
+    display: flex; /* Ensure flex display for alignment */
+    align-items: flex-start; /* Corrected alignment to the start */
+    justify-content: center; /* Corrected alignment to the start */
+    width: 80%; /* Making the container wider */
+    height: 500px;
+    flex-direction: column;
+  }
+  
+  .introTextContainer {
+    flex-direction: column; /* Stacks child elements vertically */
+    font-size: 1.2em;
+    white-space: 'pre-wrap';
+    font-weight: 500;
+    text-align: left; /* Ensures text is aligned to the left */
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .introTextContainer, .introImageContainer {
+      margin: 5px;
+      display:flex;
+      flex-wrap: wrap;
+      text-align: left; /* Keeps text aligned to the left on smaller screens */
+      flex-direction: column; /* Ensures a vertical stack for smaller screens */
+    }
+  }
+  

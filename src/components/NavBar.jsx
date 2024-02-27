@@ -54,10 +54,10 @@ const NavBar = () => {
     <Navbar
       fixed="top"
       expand="md"
-      bg="#A9A9A9"
-      variant="dark"
+      variant={theme.bsPrimaryVariant}
       className="navbar-custom"
       expanded={expanded}
+      style={{ backgroundColor: theme.navbarTheme.backgroundColor }}
     >
       <Container>
         {data?.logo && (
